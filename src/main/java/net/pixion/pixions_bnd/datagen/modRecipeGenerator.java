@@ -20,17 +20,17 @@ public class modRecipeGenerator extends RecipeProvider implements IConditionBuil
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, modBlocks.OAK_PANELS.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, modBlocks.OAK_PANEL.get(),2)
                 .pattern("AA")
                 .pattern("AA")
-                .define("A", modItems.OAK_PANEL.get())
+                .define("A", modItems.OAK_BOARDS.get())
                 .unlockedBy(getHasName(Items.OAK_SLAB), has(Items.OAK_SLAB))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, modBlocks.OAK_PANELS.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, modBlocks.OAK_PANEL.get())
                 .pattern("A")
                 .pattern("A")
-                .define("A", modItems.OAK_MOSAIC.get())
+                .define("A", Items.OAK_SLAB)
                 .unlockedBy(getHasName(Items.OAK_SLAB), has(Items.OAK_SLAB))
                 .save(pWriter);
     }

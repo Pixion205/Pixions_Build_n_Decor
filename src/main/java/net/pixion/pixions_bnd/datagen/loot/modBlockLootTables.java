@@ -11,12 +11,16 @@ import net.pixion.pixions_bnd.block.modBlocks;
 import java.util.Set;
 
 public class modBlockLootTables extends BlockLootSubProvider {
-    protected modBlockLootTables(Set<Item> pExplosionResistant, FeatureFlagSet pEnabledFeatures) {
+    public modBlockLootTables() {
         super(Set.of(), FeatureFlags.REGISTRY.allFlags());
     }
 
     @Override
     protected void generate() {
+        this.dropSelf(modBlocks.TRIMMED_OAK_PLANKS.get());
+        this.dropSelf(modBlocks.OAK_BOARDS.get());
+        this.dropSelf(modBlocks.TRIMMED_OAK_BOARDS.get());
+        this.dropSelf(modBlocks.OAK_MOSAIC.get());
         this.dropSelf(modBlocks.OAK_PANEL.get());
     }
 
