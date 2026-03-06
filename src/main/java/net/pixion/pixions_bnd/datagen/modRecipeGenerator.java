@@ -23,7 +23,7 @@ public class modRecipeGenerator extends RecipeProvider implements IConditionBuil
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, modBlocks.OAK_PANEL.get(),2)
                 .pattern("AA")
                 .pattern("AA")
-                .define("A", modItems.OAK_BOARDS.get())
+                .define("A", modItems.OAK_PANEL.get())
                 .unlockedBy(getHasName(Items.OAK_SLAB), has(Items.OAK_SLAB))
                 .save(pWriter);
 
