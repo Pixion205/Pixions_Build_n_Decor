@@ -12,6 +12,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.pixion.pixions_bnd.block.modBlocks;
+import net.pixion.pixions_bnd.item.modCreativeModeTab;
 import net.pixion.pixions_bnd.item.modItems;
 import org.slf4j.Logger;
 
@@ -20,9 +21,10 @@ public class PixionsBnD {
     public static final String MODID = "pixions_bnd";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public PixionsBnD(FMLJavaModLoadingContext context)
-    {
-        IEventBus modEventBus = context.getModEventBus();
+    public PixionsBnD() {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        modCreativeModeTab.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
