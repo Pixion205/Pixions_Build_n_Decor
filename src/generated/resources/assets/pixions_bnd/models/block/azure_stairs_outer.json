@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "pixions_bnd:block/azure_planks",
+    "side": "pixions_bnd:block/azure_planks",
+    "top": "pixions_bnd:block/azure_planks"
+  }
+}

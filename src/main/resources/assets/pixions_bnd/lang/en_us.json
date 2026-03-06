@@ -5,5 +5,26 @@
   "block.pixions_bnd.oak_boards": "Oak Boards",
   "block.pixions_bnd.trimmed_oak_boards": "Trimmed Oak Boards",
   "block.pixions_bnd.oak_mosaic": "Oak Mosaic",
-  "block.pixions_bnd.oak_panel": "Oak Panel"
+  "block.pixions_bnd.oak_panel": "Oak Panel",
+
+  "block.pixions_bnd.trimmed_oak_planks_stairs": "Trimmed Oak Planks Stairs",
+  "block.pixions_bnd.trimmed_oak_planks_slab": "Trimmed Oak Planks Slab",
+  "block.pixions_bnd.oak_boards_stairs": "Oak Boards Stairs",
+  "block.pixions_bnd.oak_boards_slab": "Oak Boards Slab",
+  "block.pixions_bnd.trimmed_oak_boards_stairs": "Trimmed Oak Boards Stairs",
+  "block.pixions_bnd.trimmed_oak_boards_slab": "Trimmed Oak Boards Slab",
+  "block.pixions_bnd.oak_mosaic_stairs": "Oak Mosaic Stairs",
+  "block.pixions_bnd.oak_mosaic_slab": "Oak Mosaic Slab",
+  "block.pixions_bnd.oak_panel_stairs": "Oak Panel Stairs",
+  "block.pixions_bnd.oak_panel_slab": "Oak Panel Slab",
+
+  "block.pixions_bnd.azure_planks": "Azure Planks",
+  "block.pixions_bnd.azure_stairs": "Azure Stairs",
+  "block.pixions_bnd.azure_slab": "Azure Slab",
+  "block.pixions_bnd.azure_fence": "Azure Fence",
+  "block.pixions_bnd.azure_fence_gate": "Azure Fence Gate",
+  "block.pixions_bnd.azure_door": "Azure Door",
+  "block.pixions_bnd.azure_trapdoor": "Azure Trapdoor",
+  "block.pixions_bnd.azure_pressure_plate": "Azure Pressure Plate",
+  "block.pixions_bnd.azure_button": "Azure Button"
 }

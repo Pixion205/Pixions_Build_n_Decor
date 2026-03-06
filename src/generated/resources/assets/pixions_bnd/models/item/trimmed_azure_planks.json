@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "pixions_bnd:block/azure_planks"
+  }
+}

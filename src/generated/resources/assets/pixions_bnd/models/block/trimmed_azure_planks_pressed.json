@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "pixions_bnd:block/azure_planks"
+  }
+}

@@ -21,6 +21,17 @@ public class modBlockstateGenerator extends BlockStateProvider {
         blockWithItem(modBlocks.OAK_MOSAIC);
         blockWithItem(modBlocks.OAK_PANEL);
 
+        stairsBlock(((StairBlock) modBlocks.TRIMMED_OAK_PLANKS_STAIRS.get()), blockTexture(modBlocks.TRIMMED_OAK_PLANKS.get()));
+        slabBlock(((SlabBlock) modBlocks.TRIMMED_OAK_PLANKS_SLAB.get()), blockTexture(modBlocks.TRIMMED_OAK_PLANKS.get()), blockTexture(modBlocks.TRIMMED_OAK_PLANKS.get()));
+        stairsBlock(((StairBlock) modBlocks.OAK_BOARDS_STAIRS.get()), blockTexture(modBlocks.OAK_BOARDS.get()));
+        slabBlock(((SlabBlock) modBlocks.OAK_BOARDS_SLAB.get()), blockTexture(modBlocks.OAK_BOARDS.get()), blockTexture(modBlocks.OAK_BOARDS.get()));
+        stairsBlock(((StairBlock) modBlocks.TRIMMED_OAK_BOARDS_STAIRS.get()), blockTexture(modBlocks.TRIMMED_OAK_BOARDS.get()));
+        slabBlock(((SlabBlock) modBlocks.TRIMMED_OAK_BOARDS_SLAB.get()), blockTexture(modBlocks.TRIMMED_OAK_BOARDS.get()), blockTexture(modBlocks.TRIMMED_OAK_BOARDS.get()));
+        stairsBlock(((StairBlock) modBlocks.OAK_MOSAIC_STAIRS.get()), blockTexture(modBlocks.OAK_MOSAIC.get()));
+        slabBlock(((SlabBlock) modBlocks.OAK_MOSAIC_SLAB.get()), blockTexture(modBlocks.OAK_MOSAIC.get()), blockTexture(modBlocks.OAK_MOSAIC.get()));
+        stairsBlock(((StairBlock) modBlocks.OAK_PANEL_STAIRS.get()), blockTexture(modBlocks.OAK_PANEL.get()));
+        slabBlock(((SlabBlock) modBlocks.OAK_PANEL_SLAB.get()), blockTexture(modBlocks.OAK_PANEL.get()), blockTexture(modBlocks.OAK_PANEL.get()));
+
         blockWithItem(modBlocks.AZURE_PLANKS);
 
         stairsBlock(((StairBlock) modBlocks.AZURE_STAIRS.get()), blockTexture(modBlocks.AZURE_PLANKS.get()));
