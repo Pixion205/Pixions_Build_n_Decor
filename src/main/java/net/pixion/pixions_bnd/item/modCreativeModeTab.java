@@ -23,6 +23,16 @@ public class modCreativeModeTab {
                         pOutput.accept(modBlocks.TRIMMED_OAK_BOARDS.get());
                         pOutput.accept(modBlocks.OAK_MOSAIC.get());
                         pOutput.accept(modBlocks.OAK_PANEL.get());
+
+                        pOutput.accept(modBlocks.AZURE_PLANKS.get());
+                        pOutput.accept(modBlocks.AZURE_STAIRS.get());
+                        pOutput.accept(modBlocks.AZURE_SLAB.get());
+                        pOutput.accept(modBlocks.AZURE_FENCE.get());
+                        pOutput.accept(modBlocks.AZURE_FENCE_GATE.get());
+                        pOutput.accept(modBlocks.AZURE_DOOR.get());
+                        pOutput.accept(modBlocks.AZURE_TRAPDOOR.get());
+                        pOutput.accept(modBlocks.AZURE_PRESSURE_PLATE.get());
+                        pOutput.accept(modBlocks.AZURE_BUTTON.get());
                     })
                     .build());
 
