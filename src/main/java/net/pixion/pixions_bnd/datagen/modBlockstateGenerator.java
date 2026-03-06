@@ -1,7 +1,7 @@
 package net.pixion.pixions_bnd.datagen;
 
 import net.minecraft.data.PackOutput;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.*;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
@@ -20,6 +20,20 @@ public class modBlockstateGenerator extends BlockStateProvider {
         blockWithItem(modBlocks.TRIMMED_OAK_BOARDS);
         blockWithItem(modBlocks.OAK_MOSAIC);
         blockWithItem(modBlocks.OAK_PANEL);
+
+        blockWithItem(modBlocks.AZURE_PLANKS);
+
+        stairsBlock(((StairBlock) modBlocks.AZURE_STAIRS.get()), blockTexture(modBlocks.AZURE_PLANKS.get()));
+        slabBlock(((SlabBlock) modBlocks.AZURE_SLAB.get()), blockTexture(modBlocks.AZURE_PLANKS.get()), blockTexture(modBlocks.AZURE_PLANKS.get()));
+
+        buttonBlock(((ButtonBlock) modBlocks.AZURE_BUTTON.get()), blockTexture(modBlocks.AZURE_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) modBlocks.AZURE_PRESSURE_PLATE.get()), blockTexture(modBlocks.AZURE_PLANKS.get()));
+
+        fenceBlock(((FenceBlock) modBlocks.AZURE_FENCE.get()), blockTexture(modBlocks.AZURE_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) modBlocks.AZURE_FENCE_GATE.get()), blockTexture(modBlocks.AZURE_PLANKS.get()));
+
+        doorBlockWithRenderType(((DoorBlock) modBlocks.AZURE_DOOR.get()), modLoc("block/azure_door_bottom"), modLoc("block/azure_door_top"), "cutout");
+        trapdoorBlockWithRenderType(((TrapDoorBlock) modBlocks.AZURE_TRAPDOOR.get()), modLoc("block/azure_trapdoor"), true, "cutout");
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

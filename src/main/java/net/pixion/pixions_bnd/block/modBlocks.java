@@ -45,9 +45,9 @@ public class modBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
 
     public static final RegistryObject<Block> AZURE_DOOR = registerBlock("azure_door",
-            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS), BlockSetType.CHERRY));
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS).noOcclusion(), BlockSetType.CHERRY));
     public static final RegistryObject<Block> AZURE_TRAPDOOR = registerBlock("azure_trapdoor",
-            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS), BlockSetType.CHERRY));
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS).noOcclusion(), BlockSetType.CHERRY));
 
     public static final RegistryObject<Block> AZURE_FENCE = registerBlock("azure_fence",
             () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
