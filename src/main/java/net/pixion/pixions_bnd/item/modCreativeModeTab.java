@@ -19,20 +19,13 @@ public class modCreativeModeTab {
                     .title(Component.translatable("creativetab.pixions_bnd_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(modBlocks.TRIMMED_OAK_PLANKS.get());
-                        pOutput.accept(modBlocks.TRIMMED_OAK_PLANKS_STAIRS.get());
-                        pOutput.accept(modBlocks.TRIMMED_OAK_PLANKS_SLAB.get());
                         pOutput.accept(modBlocks.OAK_BOARDS.get());
                         pOutput.accept(modBlocks.OAK_BOARDS_STAIRS.get());
                         pOutput.accept(modBlocks.OAK_BOARDS_SLAB.get());
                         pOutput.accept(modBlocks.TRIMMED_OAK_BOARDS.get());
-                        pOutput.accept(modBlocks.TRIMMED_OAK_BOARDS_STAIRS.get());
-                        pOutput.accept(modBlocks.TRIMMED_OAK_BOARDS_SLAB.get());
                         pOutput.accept(modBlocks.OAK_MOSAIC.get());
                         pOutput.accept(modBlocks.OAK_MOSAIC_STAIRS.get());
                         pOutput.accept(modBlocks.OAK_MOSAIC_SLAB.get());
-                        pOutput.accept(modBlocks.OAK_PANEL.get());
-                        pOutput.accept(modBlocks.OAK_PANEL_STAIRS.get());
-                        pOutput.accept(modBlocks.OAK_PANEL_SLAB.get());
 
                         pOutput.accept(modBlocks.AZURE_PLANKS.get());
                         pOutput.accept(modBlocks.AZURE_STAIRS.get());

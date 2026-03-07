@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "pixions_bnd:block/oak_panel",
-    "side": "pixions_bnd:block/oak_panel",
-    "top": "pixions_bnd:block/oak_panel"
-  }
-}

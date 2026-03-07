@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "pixions_bnd:block/trimmed_oak_planks",
-    "side": "pixions_bnd:block/trimmed_oak_planks",
-    "top": "pixions_bnd:block/trimmed_oak_planks"
-  }
-}

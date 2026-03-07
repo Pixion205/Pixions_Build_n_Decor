@@ -21,22 +21,11 @@ public class modBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(modBlocks.OAK_BOARDS.get());
         this.dropSelf(modBlocks.TRIMMED_OAK_BOARDS.get());
         this.dropSelf(modBlocks.OAK_MOSAIC.get());
-        this.dropSelf(modBlocks.OAK_PANEL.get());
 
-        this.dropSelf(modBlocks.TRIMMED_OAK_PLANKS_STAIRS.get());
-        this.add(modBlocks.TRIMMED_OAK_PLANKS_SLAB.get(),block -> createSlabItemTable(modBlocks.TRIMMED_OAK_PLANKS_SLAB.get()));
         this.dropSelf(modBlocks.OAK_BOARDS_STAIRS.get());
         this.add(modBlocks.OAK_BOARDS_SLAB.get(),block -> createSlabItemTable(modBlocks.OAK_BOARDS_SLAB.get()));
-        this.dropSelf(modBlocks.TRIMMED_OAK_BOARDS_STAIRS.get());
-        this.add(modBlocks.TRIMMED_OAK_BOARDS_SLAB.get(),block -> createSlabItemTable(modBlocks.TRIMMED_OAK_BOARDS_SLAB.get()));
         this.dropSelf(modBlocks.OAK_MOSAIC_STAIRS.get());
         this.add(modBlocks.OAK_MOSAIC_SLAB.get(),block -> createSlabItemTable(modBlocks.OAK_MOSAIC_SLAB.get()));
-        this.dropSelf(modBlocks.OAK_PANEL_STAIRS.get());
-        this.add(modBlocks.OAK_PANEL_SLAB.get(),block -> createSlabItemTable(modBlocks.OAK_PANEL_SLAB.get()));
-
-        this.dropSelf(modBlocks.TRIMMED_OAK_PLANKS_STAIRS.get());
-        this.dropSelf(modBlocks.TRIMMED_OAK_PLANKS_STAIRS.get());
-        this.dropSelf(modBlocks.TRIMMED_OAK_PLANKS_STAIRS.get());
 
         this.dropSelf(modBlocks.AZURE_PLANKS.get());
         this.dropSelf(modBlocks.AZURE_STAIRS.get());
