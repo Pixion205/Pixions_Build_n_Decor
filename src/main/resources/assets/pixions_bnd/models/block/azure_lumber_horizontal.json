@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "pixions_bnd:block/azure_lumber_top",
+    "side": "pixions_bnd:block/azure_lumber"
+  }
+}

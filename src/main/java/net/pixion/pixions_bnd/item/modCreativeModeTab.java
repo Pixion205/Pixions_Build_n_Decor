@@ -18,6 +18,7 @@ public class modCreativeModeTab {
             () -> CreativeModeTab.builder().icon(()-> new ItemStack(modBlocks.TRIMMED_OAK_BOARDS.get()))
                     .title(Component.translatable("creativetab.pixions_bnd_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(modBlocks.OAK_LUMBER.get());
                         pOutput.accept(modBlocks.TRIMMED_OAK_PLANKS.get());
                         pOutput.accept(modBlocks.OAK_BOARDS.get());
                         pOutput.accept(modBlocks.OAK_BOARDS_STAIRS.get());
@@ -27,9 +28,18 @@ public class modCreativeModeTab {
                         pOutput.accept(modBlocks.OAK_MOSAIC_STAIRS.get());
                         pOutput.accept(modBlocks.OAK_MOSAIC_SLAB.get());
 
+                        pOutput.accept(modBlocks.AZURE_LUMBER.get());
                         pOutput.accept(modBlocks.AZURE_PLANKS.get());
                         pOutput.accept(modBlocks.AZURE_STAIRS.get());
                         pOutput.accept(modBlocks.AZURE_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_AZURE_PLANKS.get());
+                        pOutput.accept(modBlocks.AZURE_BOARDS.get());
+                        pOutput.accept(modBlocks.AZURE_BOARDS_STAIRS.get());
+                        pOutput.accept(modBlocks.AZURE_BOARDS_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_AZURE_BOARDS.get());
+                        pOutput.accept(modBlocks.AZURE_MOSAIC.get());
+                        pOutput.accept(modBlocks.AZURE_MOSAIC_STAIRS.get());
+                        pOutput.accept(modBlocks.AZURE_MOSAIC_SLAB.get());
                         pOutput.accept(modBlocks.AZURE_FENCE.get());
                         pOutput.accept(modBlocks.AZURE_FENCE_GATE.get());
                         pOutput.accept(modBlocks.AZURE_DOOR.get());

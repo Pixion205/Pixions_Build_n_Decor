@@ -1,22 +1,16 @@
 {
   "creativetab.pixions_bnd_tab": "Pixion's Build & Decor",
 
+  "block.pixions_bnd.oak_lumber": "Oak Lumber",
   "block.pixions_bnd.trimmed_oak_planks": "Trimmed Oak Planks",
   "block.pixions_bnd.oak_boards": "Oak Boards",
   "block.pixions_bnd.trimmed_oak_boards": "Trimmed Oak Boards",
   "block.pixions_bnd.oak_mosaic": "Oak Mosaic",
-  "block.pixions_bnd.oak_panel": "Oak Panel",
 
-  "block.pixions_bnd.trimmed_oak_planks_stairs": "Trimmed Oak Planks Stairs",
-  "block.pixions_bnd.trimmed_oak_planks_slab": "Trimmed Oak Planks Slab",
   "block.pixions_bnd.oak_boards_stairs": "Oak Boards Stairs",
   "block.pixions_bnd.oak_boards_slab": "Oak Boards Slab",
-  "block.pixions_bnd.trimmed_oak_boards_stairs": "Trimmed Oak Boards Stairs",
-  "block.pixions_bnd.trimmed_oak_boards_slab": "Trimmed Oak Boards Slab",
   "block.pixions_bnd.oak_mosaic_stairs": "Oak Mosaic Stairs",
   "block.pixions_bnd.oak_mosaic_slab": "Oak Mosaic Slab",
-  "block.pixions_bnd.oak_panel_stairs": "Oak Panel Stairs",
-  "block.pixions_bnd.oak_panel_slab": "Oak Panel Slab",
 
   "block.pixions_bnd.azure_planks": "Azure Planks",
   "block.pixions_bnd.azure_stairs": "Azure Stairs",

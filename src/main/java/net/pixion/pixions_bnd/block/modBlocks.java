@@ -6,6 +6,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraft.world.level.levelgen.Column;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -19,6 +20,9 @@ public class modBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, PixionsBnD.MODID);
 
+    // --- OAK ---
+    public static final RegistryObject<Block> OAK_LUMBER = registerBlock("oak_lumber",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
     public static final RegistryObject<Block> TRIMMED_OAK_PLANKS = registerBlock("trimmed_oak_planks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> OAK_BOARDS = registerBlock("oak_boards",
@@ -39,12 +43,35 @@ public class modBlocks {
     public static final RegistryObject<Block> OAK_MOSAIC_SLAB = registerBlock("oak_mosaic_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
+    // --- AZURE ---
     public static final RegistryObject<Block> AZURE_PLANKS = registerBlock("azure_planks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
     public static final RegistryObject<Block> AZURE_STAIRS = registerBlock("azure_stairs",
             () -> new StairBlock(() -> modBlocks.AZURE_PLANKS.get().defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
     public static final RegistryObject<Block> AZURE_SLAB = registerBlock("azure_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+
+    public static final RegistryObject<Block> AZURE_LUMBER = registerBlock("oak_lumber",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_LOG)));
+    public static final RegistryObject<Block> TRIMMED_AZURE_PLANKS = registerBlock("trimmed_oak_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+    public static final RegistryObject<Block> AZURE_BOARDS = registerBlock("oak_boards",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+    public static final RegistryObject<Block> TRIMMED_AZURE_BOARDS = registerBlock("trimmed_oak_boards",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+    public static final RegistryObject<Block> AZURE_MOSAIC = registerBlock("oak_mosaic",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+
+    public static final RegistryObject<Block> AZURE_BOARDS_STAIRS = registerBlock("oak_boards_stairs",
+            () -> new StairBlock(() -> modBlocks.AZURE_BOARDS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+    public static final RegistryObject<Block> AZURE_BOARDS_SLAB = registerBlock("oak_boards_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+    public static final RegistryObject<Block> AZURE_MOSAIC_STAIRS = registerBlock("oak_mosaic_stairs",
+            () -> new StairBlock(() -> modBlocks.AZURE_MOSAIC.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+    public static final RegistryObject<Block> AZURE_MOSAIC_SLAB = registerBlock("oak_mosaic_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
 
     public static final RegistryObject<Block> AZURE_DOOR = registerBlock("azure_door",
