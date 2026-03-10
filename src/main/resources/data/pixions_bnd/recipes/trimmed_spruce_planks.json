@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "#A#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "A": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "result": {
+    "item": "pixions_bnd:trimmed_spruce_planks",
+    "count": 2
+  }
+}

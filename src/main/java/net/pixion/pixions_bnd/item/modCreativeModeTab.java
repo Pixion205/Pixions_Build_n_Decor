@@ -28,6 +28,16 @@ public class modCreativeModeTab {
                         pOutput.accept(modBlocks.OAK_MOSAIC_STAIRS.get());
                         pOutput.accept(modBlocks.OAK_MOSAIC_SLAB.get());
 
+                        pOutput.accept(modBlocks.SPRUCE_LUMBER.get());
+                        pOutput.accept(modBlocks.TRIMMED_SPRUCE_PLANKS.get());
+                        pOutput.accept(modBlocks.SPRUCE_BOARDS.get());
+                        pOutput.accept(modBlocks.SPRUCE_BOARDS_STAIRS.get());
+                        pOutput.accept(modBlocks.SPRUCE_BOARDS_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_SPRUCE_BOARDS.get());
+                        pOutput.accept(modBlocks.SPRUCE_MOSAIC.get());
+                        pOutput.accept(modBlocks.SPRUCE_MOSAIC_STAIRS.get());
+                        pOutput.accept(modBlocks.SPRUCE_MOSAIC_SLAB.get());
+
                         pOutput.accept(modBlocks.AZURE_LUMBER.get());
                         pOutput.accept(modBlocks.AZURE_PLANKS.get());
                         pOutput.accept(modBlocks.AZURE_STAIRS.get());

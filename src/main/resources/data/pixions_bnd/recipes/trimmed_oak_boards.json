@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "#A#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "A": {
+      "item": "pixions_bnd:oak_boards"
+    }
+  },
+  "result": {
+    "item": "pixions_bnd:trimmed_oak_boards",
+    "count": 2
+  }
+}

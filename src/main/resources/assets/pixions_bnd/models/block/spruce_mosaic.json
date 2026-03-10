@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "pixions_bnd:block/spruce_mosaic"
+  }
+}

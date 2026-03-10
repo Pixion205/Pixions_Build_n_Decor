@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pixions_bnd:spruce_boards"
+    }
+  ],
+  "result": {
+    "item": "minecraft:spruce_planks"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#A#",
+    "#A#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "A": {
+      "item": "pixions_bnd:azure_planks"
+    }
+  },
+  "result": {
+    "item": "pixions_bnd:azure_fence_gate"
+  }
+}

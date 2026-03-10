@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pixions_bnd:azure_boards"
+    }
+  },
+  "result": {
+    "item": "pixions_bnd:azure_boards_slab",
+    "count": 6
+  }
+}

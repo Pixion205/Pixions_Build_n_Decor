@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "pixions_bnd:block/spruce_boards",
+    "side": "pixions_bnd:block/spruce_boards",
+    "top": "pixions_bnd:block/spruce_boards"
+  }
+}
