@@ -66,6 +66,29 @@ public class modBlocks {
     public static final RegistryObject<Block> SPRUCE_MOSAIC_SLAB = registerBlock("spruce_mosaic_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)));
 
+    // --- ACACIA ---
+    public static final RegistryObject<Block> ACACIA_LUMBER = registerBlock("acacia_lumber",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_LOG)));
+    public static final RegistryObject<Block> TRIMMED_ACACIA_PLANKS = registerBlock("trimmed_acacia_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
+    public static final RegistryObject<Block> ACACIA_BOARDS = registerBlock("acacia_boards",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
+    public static final RegistryObject<Block> TRIMMED_ACACIA_BOARDS = registerBlock("trimmed_acacia_boards",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
+    public static final RegistryObject<Block> ACACIA_MOSAIC = registerBlock("acacia_mosaic",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
+
+    public static final RegistryObject<Block> ACACIA_BOARDS_STAIRS = registerBlock("acacia_boards_stairs",
+            () -> new StairBlock(() -> modBlocks.ACACIA_BOARDS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
+    public static final RegistryObject<Block> ACACIA_BOARDS_SLAB = registerBlock("acacia_boards_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
+    public static final RegistryObject<Block> ACACIA_MOSAIC_STAIRS = registerBlock("acacia_mosaic_stairs",
+            () -> new StairBlock(() -> modBlocks.ACACIA_MOSAIC.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
+    public static final RegistryObject<Block> ACACIA_MOSAIC_SLAB = registerBlock("acacia_mosaic_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
+
     // --- AZURE ---
     public static final RegistryObject<Block> AZURE_PLANKS = registerBlock("azure_planks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));

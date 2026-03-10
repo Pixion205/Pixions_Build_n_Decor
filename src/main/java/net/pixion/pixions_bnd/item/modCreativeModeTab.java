@@ -18,6 +18,7 @@ public class modCreativeModeTab {
             () -> CreativeModeTab.builder().icon(()-> new ItemStack(modBlocks.TRIMMED_OAK_BOARDS.get()))
                     .title(Component.translatable("creativetab.pixions_bnd_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        // Oak
                         pOutput.accept(modBlocks.OAK_LUMBER.get());
                         pOutput.accept(modBlocks.TRIMMED_OAK_PLANKS.get());
                         pOutput.accept(modBlocks.OAK_BOARDS.get());
@@ -28,6 +29,7 @@ public class modCreativeModeTab {
                         pOutput.accept(modBlocks.OAK_MOSAIC_STAIRS.get());
                         pOutput.accept(modBlocks.OAK_MOSAIC_SLAB.get());
 
+                        // Spruce
                         pOutput.accept(modBlocks.SPRUCE_LUMBER.get());
                         pOutput.accept(modBlocks.TRIMMED_SPRUCE_PLANKS.get());
                         pOutput.accept(modBlocks.SPRUCE_BOARDS.get());
@@ -38,6 +40,18 @@ public class modCreativeModeTab {
                         pOutput.accept(modBlocks.SPRUCE_MOSAIC_STAIRS.get());
                         pOutput.accept(modBlocks.SPRUCE_MOSAIC_SLAB.get());
 
+                        // Acacia
+                        pOutput.accept(modBlocks.ACACIA_LUMBER.get());
+                        pOutput.accept(modBlocks.TRIMMED_ACACIA_PLANKS.get());
+                        pOutput.accept(modBlocks.ACACIA_BOARDS.get());
+                        pOutput.accept(modBlocks.ACACIA_BOARDS_STAIRS.get());
+                        pOutput.accept(modBlocks.ACACIA_BOARDS_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_ACACIA_BOARDS.get());
+                        pOutput.accept(modBlocks.ACACIA_MOSAIC.get());
+                        pOutput.accept(modBlocks.ACACIA_MOSAIC_STAIRS.get());
+                        pOutput.accept(modBlocks.ACACIA_MOSAIC_SLAB.get());
+
+                        // Azure
                         pOutput.accept(modBlocks.AZURE_LUMBER.get());
                         pOutput.accept(modBlocks.AZURE_PLANKS.get());
                         pOutput.accept(modBlocks.AZURE_STAIRS.get());
