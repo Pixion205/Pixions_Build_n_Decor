@@ -25,6 +25,10 @@ public class modCreativeModeTab {
                         pOutput.accept(modBlocks.OAK_BOARDS_STAIRS.get());
                         pOutput.accept(modBlocks.OAK_BOARDS_SLAB.get());
                         pOutput.accept(modBlocks.TRIMMED_OAK_BOARDS.get());
+                        pOutput.accept(modBlocks.OAK_PANELS.get());
+                        pOutput.accept(modBlocks.OAK_PANELS_STAIRS.get());
+                        pOutput.accept(modBlocks.OAK_PANELS_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_OAK_PANELS.get());
                         pOutput.accept(modBlocks.OAK_MOSAIC.get());
                         pOutput.accept(modBlocks.OAK_MOSAIC_STAIRS.get());
                         pOutput.accept(modBlocks.OAK_MOSAIC_SLAB.get());
@@ -36,6 +40,10 @@ public class modCreativeModeTab {
                         pOutput.accept(modBlocks.SPRUCE_BOARDS_STAIRS.get());
                         pOutput.accept(modBlocks.SPRUCE_BOARDS_SLAB.get());
                         pOutput.accept(modBlocks.TRIMMED_SPRUCE_BOARDS.get());
+                        pOutput.accept(modBlocks.SPRUCE_PANELS.get());
+                        pOutput.accept(modBlocks.SPRUCE_PANELS_STAIRS.get());
+                        pOutput.accept(modBlocks.SPRUCE_PANELS_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_SPRUCE_PANELS.get());
                         pOutput.accept(modBlocks.SPRUCE_MOSAIC.get());
                         pOutput.accept(modBlocks.SPRUCE_MOSAIC_STAIRS.get());
                         pOutput.accept(modBlocks.SPRUCE_MOSAIC_SLAB.get());
@@ -47,6 +55,10 @@ public class modCreativeModeTab {
                         pOutput.accept(modBlocks.ACACIA_BOARDS_STAIRS.get());
                         pOutput.accept(modBlocks.ACACIA_BOARDS_SLAB.get());
                         pOutput.accept(modBlocks.TRIMMED_ACACIA_BOARDS.get());
+                        pOutput.accept(modBlocks.ACACIA_PANELS.get());
+                        pOutput.accept(modBlocks.ACACIA_PANELS_STAIRS.get());
+                        pOutput.accept(modBlocks.ACACIA_PANELS_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_ACACIA_PANELS.get());
                         pOutput.accept(modBlocks.ACACIA_MOSAIC.get());
                         pOutput.accept(modBlocks.ACACIA_MOSAIC_STAIRS.get());
                         pOutput.accept(modBlocks.ACACIA_MOSAIC_SLAB.get());
@@ -61,6 +73,10 @@ public class modCreativeModeTab {
                         pOutput.accept(modBlocks.AZURE_BOARDS_STAIRS.get());
                         pOutput.accept(modBlocks.AZURE_BOARDS_SLAB.get());
                         pOutput.accept(modBlocks.TRIMMED_AZURE_BOARDS.get());
+                        pOutput.accept(modBlocks.AZURE_PANELS.get());
+                        pOutput.accept(modBlocks.AZURE_PANELS_STAIRS.get());
+                        pOutput.accept(modBlocks.AZURE_PANELS_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_AZURE_PANELS.get());
                         pOutput.accept(modBlocks.AZURE_MOSAIC.get());
                         pOutput.accept(modBlocks.AZURE_MOSAIC_STAIRS.get());
                         pOutput.accept(modBlocks.AZURE_MOSAIC_SLAB.get());
