@@ -48,7 +48,7 @@ public class modCreativeModeTab {
                         pOutput.accept(modBlocks.SPRUCE_MOSAIC_STAIRS.get());
                         pOutput.accept(modBlocks.SPRUCE_MOSAIC_SLAB.get());
 
-                        // BIRCH
+                        // Birch
                         pOutput.accept(modBlocks.BIRCH_LUMBER.get());
                         pOutput.accept(modBlocks.TRIMMED_BIRCH_PLANKS.get());
                         pOutput.accept(modBlocks.BIRCH_BOARDS.get());
@@ -77,6 +77,21 @@ public class modCreativeModeTab {
                         pOutput.accept(modBlocks.ACACIA_MOSAIC.get());
                         pOutput.accept(modBlocks.ACACIA_MOSAIC_STAIRS.get());
                         pOutput.accept(modBlocks.ACACIA_MOSAIC_SLAB.get());
+
+                        // Mangrove
+                        pOutput.accept(modBlocks.MANGROVE_LUMBER.get());
+                        pOutput.accept(modBlocks.TRIMMED_MANGROVE_PLANKS.get());
+                        pOutput.accept(modBlocks.MANGROVE_BOARDS.get());
+                        pOutput.accept(modBlocks.MANGROVE_BOARDS_STAIRS.get());
+                        pOutput.accept(modBlocks.MANGROVE_BOARDS_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_MANGROVE_BOARDS.get());
+                        pOutput.accept(modBlocks.MANGROVE_PANELS.get());
+                        pOutput.accept(modBlocks.MANGROVE_PANELS_STAIRS.get());
+                        pOutput.accept(modBlocks.MANGROVE_PANELS_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_MANGROVE_PANELS.get());
+                        pOutput.accept(modBlocks.MANGROVE_MOSAIC.get());
+                        pOutput.accept(modBlocks.MANGROVE_MOSAIC_STAIRS.get());
+                        pOutput.accept(modBlocks.MANGROVE_MOSAIC_SLAB.get());
 
                         // Azure
                         pOutput.accept(modBlocks.AZURE_LUMBER.get());

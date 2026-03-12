@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:mangrove_slab"
+    }
+  },
+  "result": {
+    "item": "pixions_bnd:mangrove_mosaic"
+  }
+}

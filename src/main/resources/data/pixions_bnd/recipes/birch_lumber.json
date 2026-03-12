@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_log"
+    }
+  },
+  "result": {
+    "item": "pixions_bnd:birch_lumber",
+    "count": 4  }
+}

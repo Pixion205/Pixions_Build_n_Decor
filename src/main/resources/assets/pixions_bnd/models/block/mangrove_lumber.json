@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "pixions_bnd:block/mangrove_lumber_top",
+    "side": "pixions_bnd:block/mangrove_lumber"
+  }
+}

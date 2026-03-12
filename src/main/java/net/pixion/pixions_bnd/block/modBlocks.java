@@ -160,6 +160,41 @@ public class modBlocks {
     public static final RegistryObject<Block> ACACIA_MOSAIC_SLAB = registerBlock("acacia_mosaic_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
 
+    // --- MANGROVE ---
+    public static final RegistryObject<Block> MANGROVE_LUMBER = registerBlock("mangrove_lumber",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_LOG)));
+
+    public static final RegistryObject<Block> TRIMMED_MANGROVE_PLANKS = registerBlock("trimmed_mangrove_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
+
+    public static final RegistryObject<Block> MANGROVE_BOARDS = registerBlock("mangrove_boards",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
+    public static final RegistryObject<Block> MANGROVE_BOARDS_STAIRS = registerBlock("mangrove_boards_stairs",
+            () -> new StairBlock(() -> modBlocks.MANGROVE_BOARDS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
+    public static final RegistryObject<Block> MANGROVE_BOARDS_SLAB = registerBlock("mangrove_boards_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
+    public static final RegistryObject<Block> TRIMMED_MANGROVE_BOARDS = registerBlock("trimmed_mangrove_boards",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
+
+    public static final RegistryObject<Block> MANGROVE_PANELS = registerBlock("mangrove_panels",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
+    public static final RegistryObject<Block> MANGROVE_PANELS_STAIRS = registerBlock("mangrove_panels_stairs",
+            () -> new StairBlock(() -> modBlocks.MANGROVE_PANELS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
+    public static final RegistryObject<Block> MANGROVE_PANELS_SLAB = registerBlock("mangrove_panels_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
+    public static final RegistryObject<Block> TRIMMED_MANGROVE_PANELS = registerBlock("trimmed_mangrove_panels",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
+
+    public static final RegistryObject<Block> MANGROVE_MOSAIC = registerBlock("mangrove_mosaic",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
+    public static final RegistryObject<Block> MANGROVE_MOSAIC_STAIRS = registerBlock("mangrove_mosaic_stairs",
+            () -> new StairBlock(() -> modBlocks.MANGROVE_MOSAIC.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
+    public static final RegistryObject<Block> MANGROVE_MOSAIC_SLAB = registerBlock("mangrove_mosaic_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
+
     // --- AZURE ---
     public static final RegistryObject<Block> AZURE_LUMBER = registerBlock("azure_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_LOG)));
