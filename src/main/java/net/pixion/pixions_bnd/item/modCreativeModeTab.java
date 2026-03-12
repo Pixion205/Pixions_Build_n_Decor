@@ -48,6 +48,21 @@ public class modCreativeModeTab {
                         pOutput.accept(modBlocks.SPRUCE_MOSAIC_STAIRS.get());
                         pOutput.accept(modBlocks.SPRUCE_MOSAIC_SLAB.get());
 
+                        // BIRCH
+                        pOutput.accept(modBlocks.BIRCH_LUMBER.get());
+                        pOutput.accept(modBlocks.TRIMMED_BIRCH_PLANKS.get());
+                        pOutput.accept(modBlocks.BIRCH_BOARDS.get());
+                        pOutput.accept(modBlocks.BIRCH_BOARDS_STAIRS.get());
+                        pOutput.accept(modBlocks.BIRCH_BOARDS_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_BIRCH_BOARDS.get());
+                        pOutput.accept(modBlocks.BIRCH_PANELS.get());
+                        pOutput.accept(modBlocks.BIRCH_PANELS_STAIRS.get());
+                        pOutput.accept(modBlocks.BIRCH_PANELS_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_BIRCH_PANELS.get());
+                        pOutput.accept(modBlocks.BIRCH_MOSAIC.get());
+                        pOutput.accept(modBlocks.BIRCH_MOSAIC_STAIRS.get());
+                        pOutput.accept(modBlocks.BIRCH_MOSAIC_SLAB.get());
+
                         // Acacia
                         pOutput.accept(modBlocks.ACACIA_LUMBER.get());
                         pOutput.accept(modBlocks.TRIMMED_ACACIA_PLANKS.get());
