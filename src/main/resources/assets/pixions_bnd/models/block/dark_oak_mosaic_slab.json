@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "pixions_bnd:block/dark_oak_mosaic",
+    "side": "pixions_bnd:block/dark_oak_mosaic",
+    "top": "pixions_bnd:block/dark_oak_mosaic"
+  }
+}

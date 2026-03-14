@@ -1,0 +1,7 @@
+{
+  "parent": "pixions_bnd:block/cube_lumber_horizontal",
+  "textures": {
+    "end": "pixions_bnd:block/dark_oak_lumber_top",
+    "side": "pixions_bnd:block/dark_oak_lumber"
+  }
+}

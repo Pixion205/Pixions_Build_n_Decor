@@ -78,6 +78,21 @@ public class modCreativeModeTab {
                         pOutput.accept(modBlocks.ACACIA_MOSAIC_STAIRS.get());
                         pOutput.accept(modBlocks.ACACIA_MOSAIC_SLAB.get());
 
+                        // Dark Oak
+                        pOutput.accept(modBlocks.DARK_OAK_LUMBER.get());
+                        pOutput.accept(modBlocks.TRIMMED_DARK_OAK_PLANKS.get());
+                        pOutput.accept(modBlocks.DARK_OAK_BOARDS.get());
+                        pOutput.accept(modBlocks.DARK_OAK_BOARDS_STAIRS.get());
+                        pOutput.accept(modBlocks.DARK_OAK_BOARDS_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_DARK_OAK_BOARDS.get());
+                        pOutput.accept(modBlocks.DARK_OAK_PANELS.get());
+                        pOutput.accept(modBlocks.DARK_OAK_PANELS_STAIRS.get());
+                        pOutput.accept(modBlocks.DARK_OAK_PANELS_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_DARK_OAK_PANELS.get());
+                        pOutput.accept(modBlocks.DARK_OAK_MOSAIC.get());
+                        pOutput.accept(modBlocks.DARK_OAK_MOSAIC_STAIRS.get());
+                        pOutput.accept(modBlocks.DARK_OAK_MOSAIC_SLAB.get());
+
                         // Mangrove
                         pOutput.accept(modBlocks.MANGROVE_LUMBER.get());
                         pOutput.accept(modBlocks.TRIMMED_MANGROVE_PLANKS.get());

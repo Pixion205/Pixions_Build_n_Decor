@@ -160,6 +160,41 @@ public class modBlocks {
     public static final RegistryObject<Block> ACACIA_MOSAIC_SLAB = registerBlock("acacia_mosaic_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
 
+    // --- DARK OAK ---
+    public static final RegistryObject<Block> DARK_OAK_LUMBER = registerBlock("dark_oak_lumber",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_LOG)));
+
+    public static final RegistryObject<Block> TRIMMED_DARK_OAK_PLANKS = registerBlock("trimmed_dark_oak_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+
+    public static final RegistryObject<Block> DARK_OAK_BOARDS = registerBlock("dark_oak_boards",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+    public static final RegistryObject<Block> DARK_OAK_BOARDS_STAIRS = registerBlock("dark_oak_boards_stairs",
+            () -> new StairBlock(() -> modBlocks.DARK_OAK_BOARDS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+    public static final RegistryObject<Block> DARK_OAK_BOARDS_SLAB = registerBlock("dark_oak_boards_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+    public static final RegistryObject<Block> TRIMMED_DARK_OAK_BOARDS = registerBlock("trimmed_dark_oak_boards",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+
+    public static final RegistryObject<Block> DARK_OAK_PANELS = registerBlock("dark_oak_panels",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+    public static final RegistryObject<Block> DARK_OAK_PANELS_STAIRS = registerBlock("dark_oak_panels_stairs",
+            () -> new StairBlock(() -> modBlocks.DARK_OAK_PANELS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+    public static final RegistryObject<Block> DARK_OAK_PANELS_SLAB = registerBlock("dark_oak_panels_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+    public static final RegistryObject<Block> TRIMMED_DARK_OAK_PANELS = registerBlock("trimmed_dark_oak_panels",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+
+    public static final RegistryObject<Block> DARK_OAK_MOSAIC = registerBlock("dark_oak_mosaic",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+    public static final RegistryObject<Block> DARK_OAK_MOSAIC_STAIRS = registerBlock("dark_oak_mosaic_stairs",
+            () -> new StairBlock(() -> modBlocks.DARK_OAK_MOSAIC.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+    public static final RegistryObject<Block> DARK_OAK_MOSAIC_SLAB = registerBlock("dark_oak_mosaic_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+
     // --- MANGROVE ---
     public static final RegistryObject<Block> MANGROVE_LUMBER = registerBlock("mangrove_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_LOG)));
