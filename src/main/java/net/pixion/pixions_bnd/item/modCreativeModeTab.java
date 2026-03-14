@@ -108,7 +108,22 @@ public class modCreativeModeTab {
                         pOutput.accept(modBlocks.MANGROVE_MOSAIC_STAIRS.get());
                         pOutput.accept(modBlocks.MANGROVE_MOSAIC_SLAB.get());
 
-                        // Mangrove
+                        // Crimson
+                        pOutput.accept(modBlocks.CRIMSON_LUMBER.get());
+                        pOutput.accept(modBlocks.TRIMMED_CRIMSON_PLANKS.get());
+                        pOutput.accept(modBlocks.CRIMSON_BOARDS.get());
+                        pOutput.accept(modBlocks.CRIMSON_BOARDS_STAIRS.get());
+                        pOutput.accept(modBlocks.CRIMSON_BOARDS_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_CRIMSON_BOARDS.get());
+                        pOutput.accept(modBlocks.CRIMSON_PANELS.get());
+                        pOutput.accept(modBlocks.CRIMSON_PANELS_STAIRS.get());
+                        pOutput.accept(modBlocks.CRIMSON_PANELS_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_CRIMSON_PANELS.get());
+                        pOutput.accept(modBlocks.CRIMSON_MOSAIC.get());
+                        pOutput.accept(modBlocks.CRIMSON_MOSAIC_STAIRS.get());
+                        pOutput.accept(modBlocks.CRIMSON_MOSAIC_SLAB.get());
+
+                        // Warped
                         pOutput.accept(modBlocks.WARPED_LUMBER.get());
                         pOutput.accept(modBlocks.TRIMMED_WARPED_PLANKS.get());
                         pOutput.accept(modBlocks.WARPED_BOARDS.get());

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pixions_bnd:crimson_boards"
+    }
+  ],
+  "result": {
+    "item": "minecraft:crimson_planks"
+  }
+}

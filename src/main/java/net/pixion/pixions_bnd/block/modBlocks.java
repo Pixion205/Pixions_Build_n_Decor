@@ -230,6 +230,41 @@ public class modBlocks {
     public static final RegistryObject<Block> MANGROVE_MOSAIC_SLAB = registerBlock("mangrove_mosaic_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
 
+    // --- CRIMSON ---
+    public static final RegistryObject<Block> CRIMSON_LUMBER = registerBlock("crimson_lumber",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_STEM)));
+
+    public static final RegistryObject<Block> TRIMMED_CRIMSON_PLANKS = registerBlock("trimmed_crimson_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
+
+    public static final RegistryObject<Block> CRIMSON_BOARDS = registerBlock("crimson_boards",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
+    public static final RegistryObject<Block> CRIMSON_BOARDS_STAIRS = registerBlock("crimson_boards_stairs",
+            () -> new StairBlock(() -> modBlocks.CRIMSON_BOARDS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
+    public static final RegistryObject<Block> CRIMSON_BOARDS_SLAB = registerBlock("crimson_boards_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
+    public static final RegistryObject<Block> TRIMMED_CRIMSON_BOARDS = registerBlock("trimmed_crimson_boards",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
+
+    public static final RegistryObject<Block> CRIMSON_PANELS = registerBlock("crimson_panels",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
+    public static final RegistryObject<Block> CRIMSON_PANELS_STAIRS = registerBlock("crimson_panels_stairs",
+            () -> new StairBlock(() -> modBlocks.CRIMSON_PANELS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
+    public static final RegistryObject<Block> CRIMSON_PANELS_SLAB = registerBlock("crimson_panels_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
+    public static final RegistryObject<Block> TRIMMED_CRIMSON_PANELS = registerBlock("trimmed_crimson_panels",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
+
+    public static final RegistryObject<Block> CRIMSON_MOSAIC = registerBlock("crimson_mosaic",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
+    public static final RegistryObject<Block> CRIMSON_MOSAIC_STAIRS = registerBlock("crimson_mosaic_stairs",
+            () -> new StairBlock(() -> modBlocks.CRIMSON_MOSAIC.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
+    public static final RegistryObject<Block> CRIMSON_MOSAIC_SLAB = registerBlock("crimson_mosaic_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
+
     // --- WARPED ---
     public static final RegistryObject<Block> WARPED_LUMBER = registerBlock("warped_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_STEM)));

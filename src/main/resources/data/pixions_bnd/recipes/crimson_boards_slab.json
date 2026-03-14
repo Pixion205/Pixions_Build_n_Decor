@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "#",
-    "#"
+    "###"
   ],
   "key": {
     "#": {
-      "item": "minecraft:warped_stem"
+      "item": "pixions_bnd:crimson_boards"
     }
   },
   "result": {
-    "item": "pixions_bnd:warped_lumber",
-    "count": 4  }
+    "item": "pixions_bnd:crimson_boards_slab",
+    "count": 6
+  }
 }

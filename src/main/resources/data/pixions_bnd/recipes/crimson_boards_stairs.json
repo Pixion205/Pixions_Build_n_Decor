@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pixions_bnd:crimson_boards"
+    }
+  },
+  "result": {
+    "item": "pixions_bnd:crimson_boards_stairs",
+    "count": 4
+  }
+}

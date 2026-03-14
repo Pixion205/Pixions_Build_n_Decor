@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "pixions_bnd:block/crimson_panels",
+    "side": "pixions_bnd:block/crimson_panels",
+    "top": "pixions_bnd:block/crimson_panels"
+  }
+}

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:warped_stem"
+      "item": "minecraft:crimson_stem"
     }
   },
   "result": {
-    "item": "pixions_bnd:warped_lumber",
+    "item": "pixions_bnd:crimson_lumber",
     "count": 4  }
 }

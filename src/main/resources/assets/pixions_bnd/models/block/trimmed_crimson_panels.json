@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "pixions_bnd:block/trimmed_crimson_panels"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pixions_bnd:crimson_mosaic"
+    }
+  },
+  "result": {
+    "item": "pixions_bnd:crimson_mosaic_stairs",
+    "count": 4
+  }
+}
