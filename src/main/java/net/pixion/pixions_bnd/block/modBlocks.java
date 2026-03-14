@@ -230,6 +230,41 @@ public class modBlocks {
     public static final RegistryObject<Block> MANGROVE_MOSAIC_SLAB = registerBlock("mangrove_mosaic_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
 
+    // --- WARPED ---
+    public static final RegistryObject<Block> WARPED_LUMBER = registerBlock("warped_lumber",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_STEM)));
+
+    public static final RegistryObject<Block> TRIMMED_WARPED_PLANKS = registerBlock("trimmed_warped_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
+
+    public static final RegistryObject<Block> WARPED_BOARDS = registerBlock("warped_boards",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
+    public static final RegistryObject<Block> WARPED_BOARDS_STAIRS = registerBlock("warped_boards_stairs",
+            () -> new StairBlock(() -> modBlocks.WARPED_BOARDS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
+    public static final RegistryObject<Block> WARPED_BOARDS_SLAB = registerBlock("warped_boards_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
+    public static final RegistryObject<Block> TRIMMED_WARPED_BOARDS = registerBlock("trimmed_warped_boards",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
+
+    public static final RegistryObject<Block> WARPED_PANELS = registerBlock("warped_panels",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
+    public static final RegistryObject<Block> WARPED_PANELS_STAIRS = registerBlock("warped_panels_stairs",
+            () -> new StairBlock(() -> modBlocks.WARPED_PANELS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
+    public static final RegistryObject<Block> WARPED_PANELS_SLAB = registerBlock("warped_panels_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
+    public static final RegistryObject<Block> TRIMMED_WARPED_PANELS = registerBlock("trimmed_warped_panels",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
+
+    public static final RegistryObject<Block> WARPED_MOSAIC = registerBlock("warped_mosaic",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
+    public static final RegistryObject<Block> WARPED_MOSAIC_STAIRS = registerBlock("warped_mosaic_stairs",
+            () -> new StairBlock(() -> modBlocks.WARPED_MOSAIC.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
+    public static final RegistryObject<Block> WARPED_MOSAIC_SLAB = registerBlock("warped_mosaic_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
+
     // --- AZURE ---
     public static final RegistryObject<Block> AZURE_LUMBER = registerBlock("azure_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_LOG)));

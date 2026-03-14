@@ -108,6 +108,21 @@ public class modCreativeModeTab {
                         pOutput.accept(modBlocks.MANGROVE_MOSAIC_STAIRS.get());
                         pOutput.accept(modBlocks.MANGROVE_MOSAIC_SLAB.get());
 
+                        // Mangrove
+                        pOutput.accept(modBlocks.WARPED_LUMBER.get());
+                        pOutput.accept(modBlocks.TRIMMED_WARPED_PLANKS.get());
+                        pOutput.accept(modBlocks.WARPED_BOARDS.get());
+                        pOutput.accept(modBlocks.WARPED_BOARDS_STAIRS.get());
+                        pOutput.accept(modBlocks.WARPED_BOARDS_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_WARPED_BOARDS.get());
+                        pOutput.accept(modBlocks.WARPED_PANELS.get());
+                        pOutput.accept(modBlocks.WARPED_PANELS_STAIRS.get());
+                        pOutput.accept(modBlocks.WARPED_PANELS_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_WARPED_PANELS.get());
+                        pOutput.accept(modBlocks.WARPED_MOSAIC.get());
+                        pOutput.accept(modBlocks.WARPED_MOSAIC_STAIRS.get());
+                        pOutput.accept(modBlocks.WARPED_MOSAIC_SLAB.get());
+
                         // Azure
                         pOutput.accept(modBlocks.AZURE_LUMBER.get());
                         pOutput.accept(modBlocks.AZURE_PLANKS.get());

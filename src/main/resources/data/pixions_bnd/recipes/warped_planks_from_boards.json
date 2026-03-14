@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pixions_bnd:warped_boards"
+    }
+  ],
+  "result": {
+    "item": "minecraft:warped_planks"
+  }
+}
