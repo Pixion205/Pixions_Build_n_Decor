@@ -230,6 +230,41 @@ public class modBlocks {
     public static final RegistryObject<Block> MANGROVE_MOSAIC_SLAB = registerBlock("mangrove_mosaic_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
 
+    // --- CHERRY ---
+    public static final RegistryObject<Block> CHERRY_LUMBER = registerBlock("cherry_lumber",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_LOG)));
+
+    public static final RegistryObject<Block> TRIMMED_CHERRY_PLANKS = registerBlock("trimmed_cherry_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+
+    public static final RegistryObject<Block> CHERRY_BOARDS = registerBlock("cherry_boards",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+    public static final RegistryObject<Block> CHERRY_BOARDS_STAIRS = registerBlock("cherry_boards_stairs",
+            () -> new StairBlock(() -> modBlocks.CHERRY_BOARDS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+    public static final RegistryObject<Block> CHERRY_BOARDS_SLAB = registerBlock("cherry_boards_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+    public static final RegistryObject<Block> TRIMMED_CHERRY_BOARDS = registerBlock("trimmed_cherry_boards",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+
+    public static final RegistryObject<Block> CHERRY_PANELS = registerBlock("cherry_panels",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+    public static final RegistryObject<Block> CHERRY_PANELS_STAIRS = registerBlock("cherry_panels_stairs",
+            () -> new StairBlock(() -> modBlocks.CHERRY_PANELS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+    public static final RegistryObject<Block> CHERRY_PANELS_SLAB = registerBlock("cherry_panels_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+    public static final RegistryObject<Block> TRIMMED_CHERRY_PANELS = registerBlock("trimmed_cherry_panels",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+
+    public static final RegistryObject<Block> CHERRY_MOSAIC = registerBlock("cherry_mosaic",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+    public static final RegistryObject<Block> CHERRY_MOSAIC_STAIRS = registerBlock("cherry_mosaic_stairs",
+            () -> new StairBlock(() -> modBlocks.CHERRY_MOSAIC.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+    public static final RegistryObject<Block> CHERRY_MOSAIC_SLAB = registerBlock("cherry_mosaic_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
+
     // --- CRIMSON ---
     public static final RegistryObject<Block> CRIMSON_LUMBER = registerBlock("crimson_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_STEM)));

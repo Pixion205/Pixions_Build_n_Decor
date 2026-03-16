@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "#A#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "A": {
+      "item": "minecraft:cherry_planks"
+    }
+  },
+  "result": {
+    "item": "pixions_bnd:trimmed_cherry_planks",
+    "count": 2
+  }
+}

@@ -108,6 +108,21 @@ public class modCreativeModeTab {
                         pOutput.accept(modBlocks.MANGROVE_MOSAIC_STAIRS.get());
                         pOutput.accept(modBlocks.MANGROVE_MOSAIC_SLAB.get());
 
+                        // Cherry
+                        pOutput.accept(modBlocks.CHERRY_LUMBER.get());
+                        pOutput.accept(modBlocks.TRIMMED_CHERRY_PLANKS.get());
+                        pOutput.accept(modBlocks.CHERRY_BOARDS.get());
+                        pOutput.accept(modBlocks.CHERRY_BOARDS_STAIRS.get());
+                        pOutput.accept(modBlocks.CHERRY_BOARDS_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_CHERRY_BOARDS.get());
+                        pOutput.accept(modBlocks.CHERRY_PANELS.get());
+                        pOutput.accept(modBlocks.CHERRY_PANELS_STAIRS.get());
+                        pOutput.accept(modBlocks.CHERRY_PANELS_SLAB.get());
+                        pOutput.accept(modBlocks.TRIMMED_CHERRY_PANELS.get());
+                        pOutput.accept(modBlocks.CHERRY_MOSAIC.get());
+                        pOutput.accept(modBlocks.CHERRY_MOSAIC_STAIRS.get());
+                        pOutput.accept(modBlocks.CHERRY_MOSAIC_SLAB.get());
+
                         // Crimson
                         pOutput.accept(modBlocks.CRIMSON_LUMBER.get());
                         pOutput.accept(modBlocks.TRIMMED_CRIMSON_PLANKS.get());

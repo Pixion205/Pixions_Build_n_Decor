@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "pixions_bnd:block/cherry_boards",
+    "side": "pixions_bnd:block/cherry_boards",
+    "top": "pixions_bnd:block/cherry_boards"
+  }
+}
