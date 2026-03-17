@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pixions_bnd:jungle_boards"
+    }
+  },
+  "result": {
+    "item": "pixions_bnd:jungle_panels",
+    "count": 9  }
+}

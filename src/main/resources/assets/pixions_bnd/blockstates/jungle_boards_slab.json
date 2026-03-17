@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pixions_bnd:block/jungle_boards_slab"
+    },
+    "type=double": {
+      "model": "pixions_bnd:block/jungle_boards"
+    },
+    "type=top": {
+      "model": "pixions_bnd:block/jungle_boards_slab_top"
+    }
+  }
+}

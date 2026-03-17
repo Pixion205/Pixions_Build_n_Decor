@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pixions_bnd:oak_boards"
+    }
+  },
+  "result": {
+    "item": "pixions_bnd:oak_panels",
+    "count": 9  }
+}

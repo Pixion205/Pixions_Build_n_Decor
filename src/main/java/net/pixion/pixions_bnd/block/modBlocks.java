@@ -125,6 +125,41 @@ public class modBlocks {
     public static final RegistryObject<Block> BIRCH_MOSAIC_SLAB = registerBlock("birch_mosaic_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
 
+    // --- JUNGLE ---
+    public static final RegistryObject<Block> JUNGLE_LUMBER = registerBlock("jungle_lumber",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_LOG)));
+
+    public static final RegistryObject<Block> TRIMMED_JUNGLE_PLANKS = registerBlock("trimmed_jungle_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
+
+    public static final RegistryObject<Block> JUNGLE_BOARDS = registerBlock("jungle_boards",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
+    public static final RegistryObject<Block> JUNGLE_BOARDS_STAIRS = registerBlock("jungle_boards_stairs",
+            () -> new StairBlock(() -> modBlocks.JUNGLE_BOARDS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
+    public static final RegistryObject<Block> JUNGLE_BOARDS_SLAB = registerBlock("jungle_boards_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
+    public static final RegistryObject<Block> TRIMMED_JUNGLE_BOARDS = registerBlock("trimmed_jungle_boards",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
+
+    public static final RegistryObject<Block> JUNGLE_PANELS = registerBlock("jungle_panels",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
+    public static final RegistryObject<Block> JUNGLE_PANELS_STAIRS = registerBlock("jungle_panels_stairs",
+            () -> new StairBlock(() -> modBlocks.JUNGLE_PANELS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
+    public static final RegistryObject<Block> JUNGLE_PANELS_SLAB = registerBlock("jungle_panels_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
+    public static final RegistryObject<Block> TRIMMED_JUNGLE_PANELS = registerBlock("trimmed_jungle_panels",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
+
+    public static final RegistryObject<Block> JUNGLE_MOSAIC = registerBlock("jungle_mosaic",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
+    public static final RegistryObject<Block> JUNGLE_MOSAIC_STAIRS = registerBlock("jungle_mosaic_stairs",
+            () -> new StairBlock(() -> modBlocks.JUNGLE_MOSAIC.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
+    public static final RegistryObject<Block> JUNGLE_MOSAIC_SLAB = registerBlock("jungle_mosaic_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
+
     // --- ACACIA ---
     public static final RegistryObject<Block> ACACIA_LUMBER = registerBlock("acacia_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_LOG)));

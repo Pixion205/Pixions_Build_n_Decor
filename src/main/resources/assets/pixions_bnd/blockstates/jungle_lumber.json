@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "pixions_bnd:block/jungle_lumber_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "pixions_bnd:block/jungle_lumber"
+    },
+    "axis=z": {
+      "model": "pixions_bnd:block/jungle_lumber_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pixions_bnd:birch_panels"
+    }
+  },
+  "result": {
+    "item": "pixions_bnd:birch_panels_slab",
+    "count": 6
+  }
+}

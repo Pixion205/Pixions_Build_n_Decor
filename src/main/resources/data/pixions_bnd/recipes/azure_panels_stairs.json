@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pixions_bnd:azure_panels"
+    }
+  },
+  "result": {
+    "item": "pixions_bnd:azure_panels_stairs",
+    "count": 4
+  }
+}
