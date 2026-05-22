@@ -24,21 +24,7 @@ public class modBlocks {
     public static final RegistryObject<Block> OAK_LUMBER = registerBlock("oak_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
 
-    public static final RegistryObject<Block> TRIMMED_OAK_PLANKS = registerBlock("trimmed_oak_planks",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
-    public static final RegistryObject<Block> OAK_BOARDS = registerBlock("oak_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
-    public static final RegistryObject<Block> OAK_BOARDS_STAIRS = registerBlock("oak_boards_stairs",
-            () -> new StairBlock(() -> modBlocks.OAK_BOARDS.get().defaultBlockState(),
-                    BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
-    public static final RegistryObject<Block> OAK_BOARDS_SLAB = registerBlock("oak_boards_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
-    public static final RegistryObject<Block> TRIMMED_OAK_BOARDS = registerBlock("trimmed_oak_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
-
-    public static final RegistryObject<Block> OAK_PANEL = registerBlock("oak_panels",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<Block> OAK_MOSAIC = registerBlock("oak_mosaic",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
@@ -52,21 +38,7 @@ public class modBlocks {
     public static final RegistryObject<Block> SPRUCE_LUMBER = registerBlock("spruce_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_LOG)));
 
-    public static final RegistryObject<Block> TRIMMED_SPRUCE_PLANKS = registerBlock("trimmed_spruce_planks",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)));
 
-    public static final RegistryObject<Block> SPRUCE_BOARDS = registerBlock("spruce_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)));
-    public static final RegistryObject<Block> SPRUCE_BOARDS_STAIRS = registerBlock("spruce_boards_stairs",
-            () -> new StairBlock(() -> modBlocks.SPRUCE_BOARDS.get().defaultBlockState(),
-                    BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)));
-    public static final RegistryObject<Block> SPRUCE_BOARDS_SLAB = registerBlock("spruce_boards_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)));
-    public static final RegistryObject<Block> TRIMMED_SPRUCE_BOARDS = registerBlock("trimmed_spruce_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)));
-
-    public static final RegistryObject<Block> SPRUCE_PANEL = registerBlock("spruce_panels",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)));
 
     public static final RegistryObject<Block> SPRUCE_MOSAIC = registerBlock("spruce_mosaic",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)));
@@ -80,21 +52,7 @@ public class modBlocks {
     public static final RegistryObject<Block> BIRCH_LUMBER = registerBlock("birch_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_LOG)));
 
-    public static final RegistryObject<Block> TRIMMED_BIRCH_PLANKS = registerBlock("trimmed_birch_planks",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
 
-    public static final RegistryObject<Block> BIRCH_BOARDS = registerBlock("birch_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
-    public static final RegistryObject<Block> BIRCH_BOARDS_STAIRS = registerBlock("birch_boards_stairs",
-            () -> new StairBlock(() -> modBlocks.BIRCH_BOARDS.get().defaultBlockState(),
-                    BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
-    public static final RegistryObject<Block> BIRCH_BOARDS_SLAB = registerBlock("birch_boards_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
-    public static final RegistryObject<Block> TRIMMED_BIRCH_BOARDS = registerBlock("trimmed_birch_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
-
-    public static final RegistryObject<Block> BIRCH_PANEL = registerBlock("birch_panels",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
 
     public static final RegistryObject<Block> BIRCH_MOSAIC = registerBlock("birch_mosaic",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
@@ -108,21 +66,7 @@ public class modBlocks {
     public static final RegistryObject<Block> JUNGLE_LUMBER = registerBlock("jungle_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_LOG)));
 
-    public static final RegistryObject<Block> TRIMMED_JUNGLE_PLANKS = registerBlock("trimmed_jungle_planks",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
 
-    public static final RegistryObject<Block> JUNGLE_BOARDS = registerBlock("jungle_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
-    public static final RegistryObject<Block> JUNGLE_BOARDS_STAIRS = registerBlock("jungle_boards_stairs",
-            () -> new StairBlock(() -> modBlocks.JUNGLE_BOARDS.get().defaultBlockState(),
-                    BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
-    public static final RegistryObject<Block> JUNGLE_BOARDS_SLAB = registerBlock("jungle_boards_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
-    public static final RegistryObject<Block> TRIMMED_JUNGLE_BOARDS = registerBlock("trimmed_jungle_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
-
-    public static final RegistryObject<Block> JUNGLE_PANEL = registerBlock("jungle_panels",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
 
     public static final RegistryObject<Block> JUNGLE_MOSAIC = registerBlock("jungle_mosaic",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
@@ -136,21 +80,7 @@ public class modBlocks {
     public static final RegistryObject<Block> ACACIA_LUMBER = registerBlock("acacia_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_LOG)));
 
-    public static final RegistryObject<Block> TRIMMED_ACACIA_PLANKS = registerBlock("trimmed_acacia_planks",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
 
-    public static final RegistryObject<Block> ACACIA_BOARDS = registerBlock("acacia_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
-    public static final RegistryObject<Block> ACACIA_BOARDS_STAIRS = registerBlock("acacia_boards_stairs",
-            () -> new StairBlock(() -> modBlocks.ACACIA_BOARDS.get().defaultBlockState(),
-                    BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
-    public static final RegistryObject<Block> ACACIA_BOARDS_SLAB = registerBlock("acacia_boards_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
-    public static final RegistryObject<Block> TRIMMED_ACACIA_BOARDS = registerBlock("trimmed_acacia_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
-
-    public static final RegistryObject<Block> ACACIA_PANEL = registerBlock("acacia_panels",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
 
     public static final RegistryObject<Block> ACACIA_MOSAIC = registerBlock("acacia_mosaic",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
@@ -164,21 +94,7 @@ public class modBlocks {
     public static final RegistryObject<Block> DARK_OAK_LUMBER = registerBlock("dark_oak_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_LOG)));
 
-    public static final RegistryObject<Block> TRIMMED_DARK_OAK_PLANKS = registerBlock("trimmed_dark_oak_planks",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
 
-    public static final RegistryObject<Block> DARK_OAK_BOARDS = registerBlock("dark_oak_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
-    public static final RegistryObject<Block> DARK_OAK_BOARDS_STAIRS = registerBlock("dark_oak_boards_stairs",
-            () -> new StairBlock(() -> modBlocks.DARK_OAK_BOARDS.get().defaultBlockState(),
-                    BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
-    public static final RegistryObject<Block> DARK_OAK_BOARDS_SLAB = registerBlock("dark_oak_boards_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
-    public static final RegistryObject<Block> TRIMMED_DARK_OAK_BOARDS = registerBlock("trimmed_dark_oak_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
-
-    public static final RegistryObject<Block> DARK_OAK_PANEL = registerBlock("dark_oak_panels",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
 
     public static final RegistryObject<Block> DARK_OAK_MOSAIC = registerBlock("dark_oak_mosaic",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
@@ -192,21 +108,7 @@ public class modBlocks {
     public static final RegistryObject<Block> MANGROVE_LUMBER = registerBlock("mangrove_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_LOG)));
 
-    public static final RegistryObject<Block> TRIMMED_MANGROVE_PLANKS = registerBlock("trimmed_mangrove_planks",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
 
-    public static final RegistryObject<Block> MANGROVE_BOARDS = registerBlock("mangrove_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
-    public static final RegistryObject<Block> MANGROVE_BOARDS_STAIRS = registerBlock("mangrove_boards_stairs",
-            () -> new StairBlock(() -> modBlocks.MANGROVE_BOARDS.get().defaultBlockState(),
-                    BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
-    public static final RegistryObject<Block> MANGROVE_BOARDS_SLAB = registerBlock("mangrove_boards_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
-    public static final RegistryObject<Block> TRIMMED_MANGROVE_BOARDS = registerBlock("trimmed_mangrove_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
-
-    public static final RegistryObject<Block> MANGROVE_PANEL = registerBlock("mangrove_panels",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
 
     public static final RegistryObject<Block> MANGROVE_MOSAIC = registerBlock("mangrove_mosaic",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
@@ -220,21 +122,7 @@ public class modBlocks {
     public static final RegistryObject<Block> CHERRY_LUMBER = registerBlock("cherry_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_LOG)));
 
-    public static final RegistryObject<Block> TRIMMED_CHERRY_PLANKS = registerBlock("trimmed_cherry_planks",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
 
-    public static final RegistryObject<Block> CHERRY_BOARDS = registerBlock("cherry_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
-    public static final RegistryObject<Block> CHERRY_BOARDS_STAIRS = registerBlock("cherry_boards_stairs",
-            () -> new StairBlock(() -> modBlocks.CHERRY_BOARDS.get().defaultBlockState(),
-                    BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
-    public static final RegistryObject<Block> CHERRY_BOARDS_SLAB = registerBlock("cherry_boards_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
-    public static final RegistryObject<Block> TRIMMED_CHERRY_BOARDS = registerBlock("trimmed_cherry_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
-
-    public static final RegistryObject<Block> CHERRY_PANEL = registerBlock("cherry_panels",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
 
     public static final RegistryObject<Block> CHERRY_MOSAIC = registerBlock("cherry_mosaic",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
@@ -248,18 +136,7 @@ public class modBlocks {
     public static final RegistryObject<Block> CRIMSON_LUMBER = registerBlock("crimson_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_STEM)));
 
-    public static final RegistryObject<Block> TRIMMED_CRIMSON_PLANKS = registerBlock("trimmed_crimson_planks",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
 
-    public static final RegistryObject<Block> CRIMSON_BOARDS = registerBlock("crimson_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
-    public static final RegistryObject<Block> CRIMSON_BOARDS_STAIRS = registerBlock("crimson_boards_stairs",
-            () -> new StairBlock(() -> modBlocks.CRIMSON_BOARDS.get().defaultBlockState(),
-                    BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
-    public static final RegistryObject<Block> CRIMSON_BOARDS_SLAB = registerBlock("crimson_boards_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
-    public static final RegistryObject<Block> TRIMMED_CRIMSON_BOARDS = registerBlock("trimmed_crimson_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
 
     public static final RegistryObject<Block> CRIMSON_PANEL = registerBlock("crimson_panels",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
@@ -276,21 +153,7 @@ public class modBlocks {
     public static final RegistryObject<Block> WARPED_LUMBER = registerBlock("warped_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_STEM)));
 
-    public static final RegistryObject<Block> TRIMMED_WARPED_PLANKS = registerBlock("trimmed_warped_planks",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
 
-    public static final RegistryObject<Block> WARPED_BOARDS = registerBlock("warped_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
-    public static final RegistryObject<Block> WARPED_BOARDS_STAIRS = registerBlock("warped_boards_stairs",
-            () -> new StairBlock(() -> modBlocks.WARPED_BOARDS.get().defaultBlockState(),
-                    BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
-    public static final RegistryObject<Block> WARPED_BOARDS_SLAB = registerBlock("warped_boards_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
-    public static final RegistryObject<Block> TRIMMED_WARPED_BOARDS = registerBlock("trimmed_warped_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
-
-    public static final RegistryObject<Block> WARPED_PANEL = registerBlock("warped_panel",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
 
     public static final RegistryObject<Block> WARPED_MOSAIC = registerBlock("warped_mosaic",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
