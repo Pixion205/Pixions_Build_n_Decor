@@ -24,7 +24,8 @@ public class modBlocks {
     public static final RegistryObject<Block> OAK_LUMBER = registerBlock("oak_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
 
-
+    public static final RegistryObject<Block> OAK_TRIM = registerBlock("oak_trim",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
 
     public static final RegistryObject<Block> OAK_MOSAIC = registerBlock("oak_mosaic",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
@@ -38,7 +39,8 @@ public class modBlocks {
     public static final RegistryObject<Block> SPRUCE_LUMBER = registerBlock("spruce_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_LOG)));
 
-
+    public static final RegistryObject<Block> SPRUCE_TRIM = registerBlock("spruce_trim",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
 
     public static final RegistryObject<Block> SPRUCE_MOSAIC = registerBlock("spruce_mosaic",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)));
@@ -52,7 +54,8 @@ public class modBlocks {
     public static final RegistryObject<Block> BIRCH_LUMBER = registerBlock("birch_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_LOG)));
 
-
+    public static final RegistryObject<Block> BIRCH_TRIM = registerBlock("birch_trim",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
 
     public static final RegistryObject<Block> BIRCH_MOSAIC = registerBlock("birch_mosaic",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
@@ -66,7 +69,8 @@ public class modBlocks {
     public static final RegistryObject<Block> JUNGLE_LUMBER = registerBlock("jungle_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_LOG)));
 
-
+    public static final RegistryObject<Block> JUNGLE_TRIM = registerBlock("jungle_trim",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
 
     public static final RegistryObject<Block> JUNGLE_MOSAIC = registerBlock("jungle_mosaic",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
@@ -80,7 +84,8 @@ public class modBlocks {
     public static final RegistryObject<Block> ACACIA_LUMBER = registerBlock("acacia_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_LOG)));
 
-
+    public static final RegistryObject<Block> ACACIA_TRIM = registerBlock("acacia_trim",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
 
     public static final RegistryObject<Block> ACACIA_MOSAIC = registerBlock("acacia_mosaic",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
@@ -94,7 +99,8 @@ public class modBlocks {
     public static final RegistryObject<Block> DARK_OAK_LUMBER = registerBlock("dark_oak_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_LOG)));
 
-
+    public static final RegistryObject<Block> DARK_OAK_TRIM = registerBlock("dark_oak_trim",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
 
     public static final RegistryObject<Block> DARK_OAK_MOSAIC = registerBlock("dark_oak_mosaic",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
@@ -108,7 +114,8 @@ public class modBlocks {
     public static final RegistryObject<Block> MANGROVE_LUMBER = registerBlock("mangrove_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_LOG)));
 
-
+    public static final RegistryObject<Block> MANGROVE_TRIM = registerBlock("mangrove_trim",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
 
     public static final RegistryObject<Block> MANGROVE_MOSAIC = registerBlock("mangrove_mosaic",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
@@ -122,7 +129,8 @@ public class modBlocks {
     public static final RegistryObject<Block> CHERRY_LUMBER = registerBlock("cherry_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_LOG)));
 
-
+    public static final RegistryObject<Block> CHERRY_TRIM = registerBlock("cherry_trim",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
 
     public static final RegistryObject<Block> CHERRY_MOSAIC = registerBlock("cherry_mosaic",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS)));
@@ -136,10 +144,8 @@ public class modBlocks {
     public static final RegistryObject<Block> CRIMSON_LUMBER = registerBlock("crimson_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_STEM)));
 
-
-
-    public static final RegistryObject<Block> CRIMSON_PANEL = registerBlock("crimson_panels",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
+    public static final RegistryObject<Block> CRIMSON_TRIM = registerBlock("crimson_trim",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
 
     public static final RegistryObject<Block> CRIMSON_MOSAIC = registerBlock("crimson_mosaic",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
@@ -153,7 +159,8 @@ public class modBlocks {
     public static final RegistryObject<Block> WARPED_LUMBER = registerBlock("warped_lumber",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_STEM)));
 
-
+    public static final RegistryObject<Block> WARPED_TRIM = registerBlock("warped_trim",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
 
     public static final RegistryObject<Block> WARPED_MOSAIC = registerBlock("warped_mosaic",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
