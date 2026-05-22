@@ -20,11 +20,6 @@ public class modItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
 
-        simpleBlockItem(modBlocks.AZURE_DOOR);
-
-        fenceItem(modBlocks.AZURE_FENCE, modBlocks.AZURE_PLANKS);
-        buttonItem(modBlocks.AZURE_BUTTON, modBlocks.AZURE_PLANKS);
-
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

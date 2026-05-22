@@ -17,28 +17,9 @@ public class modBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        this.dropSelf(modBlocks.TRIMMED_OAK_PLANKS.get());
-        this.dropSelf(modBlocks.OAK_BOARDS.get());
-        this.dropSelf(modBlocks.TRIMMED_OAK_BOARDS.get());
         this.dropSelf(modBlocks.OAK_MOSAIC.get());
-
-        this.dropSelf(modBlocks.OAK_BOARDS_STAIRS.get());
-        this.add(modBlocks.OAK_BOARDS_SLAB.get(),block -> createSlabItemTable(modBlocks.OAK_BOARDS_SLAB.get()));
         this.dropSelf(modBlocks.OAK_MOSAIC_STAIRS.get());
         this.add(modBlocks.OAK_MOSAIC_SLAB.get(),block -> createSlabItemTable(modBlocks.OAK_MOSAIC_SLAB.get()));
-
-        this.dropSelf(modBlocks.AZURE_PLANKS.get());
-        this.dropSelf(modBlocks.AZURE_STAIRS.get());
-        this.dropSelf(modBlocks.AZURE_FENCE.get());
-        this.dropSelf(modBlocks.AZURE_FENCE_GATE.get());
-        this.dropSelf(modBlocks.AZURE_TRAPDOOR.get());
-        this.dropSelf(modBlocks.AZURE_BUTTON.get());
-        this.dropSelf(modBlocks.AZURE_PRESSURE_PLATE.get());
-
-        this.add(modBlocks.AZURE_SLAB.get(),
-                block -> createSlabItemTable(modBlocks.AZURE_SLAB.get()));
-        this.add(modBlocks.AZURE_DOOR.get(),
-                block -> createDoorTable(modBlocks.AZURE_DOOR.get()));
     }
 
     @Override
