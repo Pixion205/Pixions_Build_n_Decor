@@ -134,9 +134,6 @@ public class modCreativeModeTab {
                         pOutput.accept(modBlocks.WARPED_BOARDS_SLAB.get());
                         pOutput.accept(modBlocks.TRIMMED_WARPED_BOARDS.get());
                         pOutput.accept(modBlocks.WARPED_PANEL.get());
-                        pOutput.accept(modBlocks.WARPED_PANELS_STAIRS.get());
-                        pOutput.accept(modBlocks.WARPED_PANELS_SLAB.get());
-                        pOutput.accept(modBlocks.TRIMMED_WARPED_PANELS.get());
                         pOutput.accept(modBlocks.WARPED_MOSAIC.get());
                         pOutput.accept(modBlocks.WARPED_MOSAIC_STAIRS.get());
                         pOutput.accept(modBlocks.WARPED_MOSAIC_SLAB.get());
