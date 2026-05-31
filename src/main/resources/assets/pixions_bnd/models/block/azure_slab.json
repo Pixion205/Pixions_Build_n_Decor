@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "pixions_bnd:block/azure_planks",
-    "side": "pixions_bnd:block/azure_planks",
-    "top": "pixions_bnd:block/azure_planks"
-  }
-}

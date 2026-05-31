@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "S#S",
+    " S "
+  ],
+  "key": {
+    "#": {
+      "item": "pixions_bnd:warped_lumber"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "pixions_bnd:warped_trim",
+    "count": 4  }
+}

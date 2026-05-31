@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "pixions_bnd:block/spruce_boards",
-    "side": "pixions_bnd:block/spruce_boards",
-    "top": "pixions_bnd:block/spruce_boards"
-  }
-}

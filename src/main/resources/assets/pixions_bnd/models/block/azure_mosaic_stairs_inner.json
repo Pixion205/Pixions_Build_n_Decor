@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "pixions_bnd:block/azure_mosaic",
-    "side": "pixions_bnd:block/azure_mosaic",
-    "top": "pixions_bnd:block/azure_mosaic"
-  }
-}

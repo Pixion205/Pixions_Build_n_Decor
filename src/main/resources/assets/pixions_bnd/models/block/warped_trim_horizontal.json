@@ -1,0 +1,7 @@
+{
+  "parent": "pixions_bnd:block/cube_trim_horizontal",
+  "textures": {
+    "end": "pixions_bnd:block/warped_trim_top",
+    "side": "pixions_bnd:block/warped_trim"
+  }
+}
