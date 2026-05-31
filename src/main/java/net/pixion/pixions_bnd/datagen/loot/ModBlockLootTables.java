@@ -3,10 +3,12 @@ package net.pixion.pixions_bnd.datagen.loot;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DoorBlock;
+import net.minecraft.world.level.block.SlabBlock;
 import net.minecraftforge.registries.RegistryObject;
 import net.pixion.pixions_bnd.block.ModBlocks;
-import org.jetbrains.annotations.NotNull;
 
+import javax.annotation.Nonnull;
 import java.util.Set;
 
 public class ModBlockLootTables extends BlockLootSubProvider {
@@ -16,13 +18,21 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        this.dropSelf(ModBlocks.OAK_MOSAIC.get());
-        this.dropSelf(ModBlocks.OAK_MOSAIC_STAIRS.get());
-        this.add(ModBlocks.OAK_MOSAIC_SLAB.get(), block -> createSlabItemTable(ModBlocks.OAK_MOSAIC_SLAB.get()));
+        for (RegistryObject<Block> blockEntry : ModBlocks.BLOCKS.getEntries()) {
+            Block block = blockEntry.get();
+
+            if (block instanceof SlabBlock) {
+                this.add(block, createSlabItemTable(block));
+            } else if (block instanceof DoorBlock) {
+                this.add(block, createDoorTable(block));
+            } else {
+                this.dropSelf(block);
+            }
+        }
     }
 
     @Override
-    protected @NotNull Iterable<Block> getKnownBlocks() {
+    protected @Nonnull Iterable<Block> getKnownBlocks() {
         return ModBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;
     }
 }

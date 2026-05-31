@@ -37,24 +37,23 @@ public class PixionsBnD {
 
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event){
+    private void commonSetup(final FMLCommonSetupEvent event) {
 
     }
 
-    private void addCreative(BuildCreativeModeTabContentsEvent event){
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
 
     }
 
     @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event){
+    public void onServerStarting(ServerStartingEvent event) {
 
     }
 
     @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents
-    {
+    public static class ClientModEvents {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event){
+        public static void onClientSetup(FMLClientSetupEvent event) {
 
         }
     }

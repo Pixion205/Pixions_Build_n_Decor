@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "pixions_bnd:trimmed_oak_planks"
+          "name": "pixions_bnd:azure_boards_stairs"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "pixions_bnd:blocks/trimmed_oak_planks"
+  "random_sequence": "pixions_bnd:blocks/azure_boards_stairs"
 }
