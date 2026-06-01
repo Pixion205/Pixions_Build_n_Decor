@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pixions_bnd:mangrove_tiles"
+    }
+  },
+  "result": {
+    "item": "pixions_bnd:mangrove_tiles_stairs",
+    "count": 4
+  }
+}

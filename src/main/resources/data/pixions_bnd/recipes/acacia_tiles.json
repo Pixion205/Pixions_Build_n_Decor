@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "pixions_bnd:acacia_lumber"
+    }
+  },
+  "result": {
+    "item": "pixions_bnd:acacia_tiles",
+    "count": 8
+  }
+}

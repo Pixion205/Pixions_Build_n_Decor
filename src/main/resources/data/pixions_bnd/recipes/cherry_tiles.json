@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "pixions_bnd:cherry_lumber"
+    }
+  },
+  "result": {
+    "item": "pixions_bnd:cherry_tiles",
+    "count": 8
+  }
+}
