@@ -15,7 +15,7 @@ public class ModCreativeModeTab {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, PixionsBnD.MODID);
 
     public static final RegistryObject<CreativeModeTab> PIXIONS_BND_TAB = CREATIVE_MODE_TABS.register("pixions_bnd_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.OAK_LUMBER.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.OAK_TRIM.get()))
                     .title(Component.translatable("creativetab.pixions_bnd_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         ModItems.ITEMS.getEntries().forEach(item -> pOutput.accept(item.get()));
