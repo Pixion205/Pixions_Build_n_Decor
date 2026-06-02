@@ -9,7 +9,7 @@
       "model": "pixions_bnd:block/mangrove_timber"
     },
     "axis=z": {
-      "model": "pixions_bnd:block/mangrove_lumber_horizontal",
+      "model": "pixions_bnd:block/mangrove_timber_horizontal",
       "x": 90
     }
   }
