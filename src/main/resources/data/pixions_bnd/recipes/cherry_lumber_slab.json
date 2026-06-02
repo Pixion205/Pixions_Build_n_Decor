@@ -2,16 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "##",
-    "##"
+    "###"
   ],
   "key": {
     "#": {
-      "item": "pixions_bnd:acacia_timber"
+      "item": "pixions_bnd:cherry_lumber"
     }
   },
   "result": {
-    "item": "pixions_bnd:acacia_tiles",
-    "count": 8
+    "item": "pixions_bnd:cherry_lumber_slab",
+    "count": 6
   }
 }

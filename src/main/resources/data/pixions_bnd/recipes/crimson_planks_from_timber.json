@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "pixions_bnd:oak_lumber"
+      "item": "pixions_bnd:crimson_timber"
     }
   ],
   "result": {
-    "item": "minecraft:oak_planks",
+    "item": "minecraft:crimson_planks",
     "count": 2
   }
 }

@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "pixions_bnd:cherry_lumber"
+      "item": "pixions_bnd:birch_timber"
     }
   ],
   "result": {
-    "item": "minecraft:cherry_planks",
+    "item": "minecraft:birch_planks",
     "count": 2
   }
 }

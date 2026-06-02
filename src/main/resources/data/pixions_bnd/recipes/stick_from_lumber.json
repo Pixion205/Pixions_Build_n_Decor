@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "pixions_bnd:jungle_lumber"
+      "tag": "pixions_bnd:lumbers"
     }
   ],
   "result": {
-    "item": "minecraft:jungle_planks",
+    "item": "minecraft:stick",
     "count": 2
   }
 }
