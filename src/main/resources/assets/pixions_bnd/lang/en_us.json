@@ -1,7 +1,9 @@
 {
   "creativetab.pixions_bnd_tab": "Pixion's Build & Decor",
 
+  "block.pixions_bnd.oak_timber": "Oak Timber",
   "block.pixions_bnd.oak_lumber": "Oak Lumber",
+  "block.pixions_bnd.oak_lumber_slab": "Oak Lumber Slab",
   "block.pixions_bnd.oak_trim": "Oak Trim",
   "block.pixions_bnd.oak_mosaic": "Oak Mosaic",
   "block.pixions_bnd.oak_mosaic_stairs": "Oak Mosaic Stairs",
@@ -10,7 +12,9 @@
   "block.pixions_bnd.oak_tiles_stairs": "Oak Tiles Stairs",
   "block.pixions_bnd.oak_tiles_slab": "Oak Tiles Slab",
 
+  "block.pixions_bnd.spruce_timber": "Spruce Timber",
   "block.pixions_bnd.spruce_lumber": "Spruce Lumber",
+  "block.pixions_bnd.spruce_lumber_slab": "Spruce Lumber Slab",
   "block.pixions_bnd.spruce_trim": "Spruce Trim",
   "block.pixions_bnd.spruce_mosaic": "Spruce Mosaic",
   "block.pixions_bnd.spruce_mosaic_stairs": "Spruce Mosaic Stairs",
@@ -19,7 +23,9 @@
   "block.pixions_bnd.spruce_tiles_stairs": "Spruce Tiles Stairs",
   "block.pixions_bnd.spruce_tiles_slab": "Spruce Tiles Slab",
 
+  "block.pixions_bnd.birch_timber": "Birch Timber",
   "block.pixions_bnd.birch_lumber": "Birch Lumber",
+  "block.pixions_bnd.birch_lumber_slab": "Birch Lumber Slab",
   "block.pixions_bnd.birch_trim": "Birch Trim",
   "block.pixions_bnd.birch_mosaic": "Birch Mosaic",
   "block.pixions_bnd.birch_mosaic_stairs": "Birch Mosaic Stairs",
@@ -28,7 +34,9 @@
   "block.pixions_bnd.birch_tiles_stairs": "Birch Tiles Stairs",
   "block.pixions_bnd.birch_tiles_slab": "Birch Tiles Slab",
 
+  "block.pixions_bnd.jungle_timber": "Jungle Timber",
   "block.pixions_bnd.jungle_lumber": "Jungle Lumber",
+  "block.pixions_bnd.jungle_lumber_slab": "Jungle Lumber Slab",
   "block.pixions_bnd.jungle_trim": "Jungle Trim",
   "block.pixions_bnd.jungle_mosaic": "Jungle Mosaic",
   "block.pixions_bnd.jungle_mosaic_stairs": "Jungle Mosaic Stairs",
@@ -37,7 +45,9 @@
   "block.pixions_bnd.jungle_tiles_stairs": "Jungle Tiles Stairs",
   "block.pixions_bnd.jungle_tiles_slab": "Jungle Tiles Slab",
 
+  "block.pixions_bnd.acacia_timber": "Acacia Timber",
   "block.pixions_bnd.acacia_lumber": "Acacia Lumber",
+  "block.pixions_bnd.acacia_lumber_slab": "Acacia Lumber Slab",
   "block.pixions_bnd.acacia_trim": "Acacia Trim",
   "block.pixions_bnd.acacia_mosaic": "Acacia Mosaic",
   "block.pixions_bnd.acacia_mosaic_stairs": "Acacia Mosaic Stairs",
@@ -46,7 +56,9 @@
   "block.pixions_bnd.acacia_tiles_stairs": "Acacia Tiles Stairs",
   "block.pixions_bnd.acacia_tiles_slab": "Acacia Tiles Slab",
 
+  "block.pixions_bnd.dark_oak_timber": "Dark Oak Timber",
   "block.pixions_bnd.dark_oak_lumber": "Dark Oak Lumber",
+  "block.pixions_bnd.dark_oak_lumber_slab": "Dark Oak Lumber Slab",
   "block.pixions_bnd.dark_oak_trim": "Dark Oak Trim",
   "block.pixions_bnd.dark_oak_mosaic": "Dark Oak Mosaic",
   "block.pixions_bnd.dark_oak_mosaic_stairs": "Dark Oak Mosaic Stairs",
@@ -55,7 +67,9 @@
   "block.pixions_bnd.dark_oak_tiles_stairs": "Dark Oak Tiles Stairs",
   "block.pixions_bnd.dark_oak_tiles_slab": "Dark Oak Tiles Slab",
 
+  "block.pixions_bnd.mangrove_timber": "Mangrove Timber",
   "block.pixions_bnd.mangrove_lumber": "Mangrove Lumber",
+  "block.pixions_bnd.mangrove_lumber_slab": "Mangrove Lumber Slab",
   "block.pixions_bnd.mangrove_trim": "Mangrove Trim",
   "block.pixions_bnd.mangrove_mosaic": "Mangrove Mosaic",
   "block.pixions_bnd.mangrove_mosaic_stairs": "Mangrove Mosaic Stairs",
@@ -64,7 +78,9 @@
   "block.pixions_bnd.mangrove_tiles_stairs": "Mangrove Tiles Stairs",
   "block.pixions_bnd.mangrove_tiles_slab": "Mangrove Tiles Slab",
 
+  "block.pixions_bnd.cherry_timber": "Cherry Timber",
   "block.pixions_bnd.cherry_lumber": "Cherry Lumber",
+  "block.pixions_bnd.cherry_lumber_slab": "Cherry Lumber Slab",
   "block.pixions_bnd.cherry_trim": "Cherry Trim",
   "block.pixions_bnd.cherry_mosaic": "Cherry Mosaic",
   "block.pixions_bnd.cherry_mosaic_stairs": "Cherry Mosaic Stairs",
@@ -73,7 +89,9 @@
   "block.pixions_bnd.cherry_tiles_stairs": "Cherry Tiles Stairs",
   "block.pixions_bnd.cherry_tiles_slab": "Cherry Tiles Slab",
 
+  "block.pixions_bnd.crimson_timber": "Crimson Timber",
   "block.pixions_bnd.crimson_lumber": "Crimson Lumber",
+  "block.pixions_bnd.crimson_lumber_slab": "Crimson Lumber Slab",
   "block.pixions_bnd.crimson_trim": "Crimson Trim",
   "block.pixions_bnd.crimson_mosaic": "Crimson Mosaic",
   "block.pixions_bnd.crimson_mosaic_stairs": "Crimson Mosaic Stairs",
@@ -82,7 +100,9 @@
   "block.pixions_bnd.crimson_tiles_stairs": "Crimson Tiles Stairs",
   "block.pixions_bnd.crimson_tiles_slab": "Crimson Tiles Slab",
 
+  "block.pixions_bnd.warped_timber": "Warped Timber",
   "block.pixions_bnd.warped_lumber": "Warped Lumber",
+  "block.pixions_bnd.warped_lumber_slab": "Warped Lumber Slab",
   "block.pixions_bnd.warped_trim": "Warped Trim",
   "block.pixions_bnd.warped_mosaic": "Warped Mosaic",
   "block.pixions_bnd.warped_mosaic_stairs": "Warped Mosaic Stairs",

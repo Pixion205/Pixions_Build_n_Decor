@@ -16,6 +16,7 @@ public class ModTags {
     }
 
     public static class Items {
+        public static final TagKey<Item> TIMBERS = tag("timbers");
         public static final TagKey<Item> LUMBERS = tag("lumbers");
 
         private static TagKey<Item> tag(String name) {

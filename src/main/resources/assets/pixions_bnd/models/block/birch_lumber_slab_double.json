@@ -1,0 +1,8 @@
+{
+  "parent": "pixions_bnd:block/lumber_slab_double",
+  "textures": {
+    "bottop": "pixions_bnd:block/birch_lumber",
+    "slab_z": "pixions_bnd:block/birch_lumber_slab_z",
+    "slab_x": "pixions_bnd:block/birch_lumber_slab_x"
+  }
+}
